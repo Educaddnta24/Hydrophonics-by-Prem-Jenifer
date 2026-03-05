@@ -1,10 +1,6 @@
 import React from 'react'
 
-import Col from 'react-bootstrap/Col';
-import Form from 'react-bootstrap/Form';
-import Row from 'react-bootstrap/Row';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+
 import './Style.css'
 import { Container } from 'react-bootstrap';
 
