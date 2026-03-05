@@ -1,0 +1,114 @@
+*{
+    padding: 10px;
+}
+h1{
+    color: color-mix(in srgb, rgb(48, 59, 41) 50%, rgb(5, 199, 5) 50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-display: swap;
+    font-size: 50px;
+
+}
+.header{
+    background: url(https://media.istockphoto.com/id/1310419361/photo/global-network-connection-covering-earth-with-link-of-innovative-perception.jpg?s=612x612&w=0&k=20&c=-VTG3qxJ6HnPcBJGwkWEyGdJGyQIoMUp76oEsYgq7CE=);
+    padding: 100px;
+    background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body{
+    background-color: rgb(231, 255, 231);
+}
+h2{
+    color: rgb(83, 235, 90);
+    font-size: 35px;
+}
+h3{
+    border: 1px solid;
+    color: white;
+    background-color: rgb(25, 97, 52);
+    border-radius: 5px 50px ;
+    
+}
+ section div{
+    border: 1px solid;
+}
+
+img:hover{
+    border-radius: 50px;
+    }
+
+.about{
+    background: url(https://static.vecteezy.com/system/resources/previews/002/540/142/large_2x/vegetable-green-oak-growing-in-pvc-pipe-hydroponic-system-flow-water-and-fertilizer-automation-on-planting-plot-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+button{
+    border-radius: 20px;
+    padding: 10px;
+    color: rgb(38, 77, 38);
+}
+.Cardstyle{
+ display: flux;
+ justify-content: flex-start;
+ 
+ 
+  text-align: center;
+  background: linear-gradient(#C6D870,green);
+ 
+  
+ 
+}
+
+.fee{
+    
+    color: rgb(49, 156, 106);
+ border-radius: 10px;
+    background-color: rgb(187, 241, 182);
+}
+.hefer{
+    border: 0px;
+}
+.two{
+   margin-left: -60px;
+   margin-bottom: 20px;
+}
+.one{
+    margin-left: 90px;
+   margin-bottom: 20px;
+}
+.auto{
+    border: 2px solid #4CAF50;
+  padding: 20px;
+  margin: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.row{
+    display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+
+.img-fluid {
+  margin-bottom: 10px;
+ background-color: #dbe0db;
+  gap: 5px;
+  border: 1px solid rgb(39, 238, 39);
+  
+}
+.tech{
+    background-color: rgb(154, 189, 178);
+}
