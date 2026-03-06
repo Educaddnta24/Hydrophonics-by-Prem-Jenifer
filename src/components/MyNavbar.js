@@ -1,35 +1,53 @@
-
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Navbar , Nav } from "react-bootstrap";
+import { Navbar, Nav, Container } from "react-bootstrap";
 import NavDropdown from 'react-bootstrap/NavDropdown';
+
 const MyNavbar = () => {
   return (
     <div>
- <Navbar expand="lg" className="bg-body-tertiary">
-      <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+      <Navbar expand="lg" bg="light">
+        <Container>
+
+          <Navbar.Brand href="/">HydroFarm</Navbar.Brand>
+
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
+          <Navbar.Collapse id="basic-navbar-nav">
+
+            <Nav className="me-auto">
+
+              <Nav.Link href="/Home">Home</Nav.Link>
+
+              <Nav.Link href="/About">About</Nav.Link>
+
+              <Nav.Link href="/Technologies">Technologies</Nav.Link>
+
+              <NavDropdown title="More" id="basic-nav-dropdown">
+
+                <NavDropdown.Item href="/Gallery">
+                  Gallery
+                </NavDropdown.Item>
+
+                <NavDropdown.Item href="/Services">
+                  Services
+                </NavDropdown.Item>
+
+                <NavDropdown.Divider />
+
+                <NavDropdown.Item href="/Contact">
+                  Contact
+                </NavDropdown.Item>
+
+              </NavDropdown>
+
+            </Nav>
+
+          </Navbar.Collapse>
+
+        </Container>
+      </Navbar>
     </div>
   )
 }
 
-export default MyNavbar
+export default MyNavbar;
