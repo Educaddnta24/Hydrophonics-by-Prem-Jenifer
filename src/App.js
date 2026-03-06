@@ -1,36 +1,32 @@
-import React, { useEffect, useState } from 'react';
-import { Navbar, Container } from 'react-bootstrap';
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import MyNavbar from './components/MyNavbar';
+import Header from './components/Header';
 import Home from './components/Home';
 import About from './components/About';
-import Header from './components/Header';
-import Contact from './components/Contact';
 import Technologies from './components/Technologies';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
-import 'bootstrap/dist/css/bootstrap.min.css';
-function App() {
 
+function App() {
   return (
     <div className="App">
-   
+      {/* Navigation Bar */}
+      <MyNavbar />
 
+      {/* Header Section */}
+      <Header />
 
+      {/* Main Content */}
+      <Home />
+      <Technologies />
+      <About />
+      <Contact />
 
-
-
-
-
-
-
-    <Navbar/>
-    <Header/>
-    <Home/>
-    <Technologies/>
-   <About/>
-   <Contact/>
-   <Footer/>
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }
-
 
 export default App;
